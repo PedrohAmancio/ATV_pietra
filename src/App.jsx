@@ -1,16 +1,17 @@
-import Login from '../../segundo/src/pages/Login'
 import './App.css'
-import Tela_cadastro from './Componentes/Tela_cadastro'
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import Tela_cadastro from './pages/Tela_cadastro'
+import { Outlet } from 'react-router-dom'
+import Navagation from './components/Navagation'
+
 
 function App() {
   return (
-    <Router>
-      <Routes>
-      <Route path='/' element = {<Login/>}/> 
-      <Route path='/cadastro' element = {<Tela_cadastro/>}/>
-      </Routes>
-      </Router>
+    <div className="org">
+      <div className='estilizacao'>
+        <Outlet/>
+        <Navagation/>
+      </div>
+    </div>
   )
 }
 

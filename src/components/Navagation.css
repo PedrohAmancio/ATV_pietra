@@ -1,0 +1,13 @@
+.layout {
+    text-align: center;
+}
+.layout button{
+    background-color: white;
+}
+.layout a{
+    text-decoration: none;
+    color: rgb(44, 255, 36);
+}
+.layout button:hover{
+    background-color: white;
+}
