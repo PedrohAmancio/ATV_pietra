@@ -1,4 +1,6 @@
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
-
+body{
+  background-image: linear-gradient(60deg, green, rgb(1, 108, 1), rgb(1, 63, 1));
+}

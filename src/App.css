@@ -21,6 +21,7 @@
 .estilizacao h2 {
     text-align: center;
     margin-bottom: 20px; 
+    color: rgb(1, 79, 1);
 }
 
 .estilizacao input {
