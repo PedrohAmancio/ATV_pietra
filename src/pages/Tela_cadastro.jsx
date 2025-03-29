@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import "../App.css"
 
 const Tela_cadastro = () => {
     const [senha, setSenha] = useState("");
